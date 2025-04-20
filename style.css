@@ -1,0 +1,43 @@
+/* style.css */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.stTextInput>div>div>input, 
+.stSelectbox>div>div>select,
+.stDateInput>div>div>input,
+.stTextArea>div>div>textarea {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.stAlert {
+    border-radius: 5px;
+}
+
+.stDataFrame {
+    border-radius: 5px;
+}
+
+.stMarkdown h1 {
+    color: #2c3e50;
+}
+
+.stMarkdown h2 {
+    color: #3498db;
+}
+
+.stSidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
