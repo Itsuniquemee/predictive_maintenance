@@ -334,7 +334,7 @@ def maintenance_tracking(user):
             with st.form("schedule_maintenance"):
                 equipment_id = st.selectbox("Equipment", 
                                           equipment['name'].tolist())
-                eq_id = equipment[equipment['name'] == equipment_id]['equipment_id'].values[0]
+                eq_id = int(equipment[equipment['name'] == equipment_id]['equipment_id'].values[0])
                 
                 maintenance_type = st.selectbox("Maintenance Type", 
                                               ['preventive', 'corrective', 'predictive'])
